@@ -1,32 +1,32 @@
 [
   {
-    "Input": "Hello, world!",
-    "Output": [ { "text": "Hello, world!" } ],
-    "Title": "Single Text"
+    "input": "Hello, world!",
+    "output": [ { "text": "Hello, world!" } ],
+    "title": "Single Text"
   },
   {
-    "Input": "{Name}",
-    "Output": [ { "property": "Name" } ],
-    "Title": "Single property"
+    "input": "{Name}",
+    "output": [ { "property": "Name" } ],
+    "title": "Single property"
   },
   {
-    "Input": "{0}",
-    "Output": [
+    "input": "{0}",
+    "output": [
       {
         "property": "0",
         "positional": true
       }
     ],
-    "Title": "Single positional item"
+    "title": "Single positional item"
   },
   {
-    "Input": "Hello, {Name}!",
-    "Output": [
+    "input": "Hello, {Name}!",
+    "output": [
       { "text": "Hello, " },
       { "property": "Name" },
       { "text": "!" }
     ],
-    "Title": "Combined text and property"
+    "title": "Combined text and property"
   }
 
 ]
